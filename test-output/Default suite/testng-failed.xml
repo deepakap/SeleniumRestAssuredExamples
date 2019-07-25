@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTestProject.ValidateLoginPage">
+      <class name="com.app.restFulltest.ValidatePostResqest">
         <methods>
-          <include name="fnTerminateDriver"/>
-          <include name="fnclickCompareLink"/>
-          <include name="fnPerformActions"/>
-          <include name="fnSetDeriver"/>
+          <include name="setUp"/>
+          <include name="_test_PostApi"/>
         </methods>
-      </class> <!-- SeleniumTestProject.ValidateLoginPage -->
+      </class> <!-- com.app.restFulltest.ValidatePostResqest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
