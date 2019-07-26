@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7066" started-at="2019-07-26T02:39:07Z" finished-at="2019-07-26T02:39:14Z">
+  <suite name="Default suite" duration-ms="7074" started-at="2019-07-26T03:05:31Z" finished-at="2019-07-26T03:05:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7066" started-at="2019-07-26T02:39:07Z" finished-at="2019-07-26T02:39:14Z">
+    <test name="Default test" duration-ms="7074" started-at="2019-07-26T03:05:31Z" finished-at="2019-07-26T03:05:38Z">
       <class name="SeleniumTestProject.ValidateLoginPage">
-        <test-method status="PASS" signature="fnSetDeriver()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="fnSetDeriver" is-config="true" duration-ms="1173" started-at="2019-07-25T19:39:07Z" finished-at="2019-07-25T19:39:08Z">
+        <test-method status="PASS" signature="fnSetDeriver()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnSetDeriver" is-config="true" duration-ms="1660" started-at="2019-07-25T20:05:31Z" finished-at="2019-07-25T20:05:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnSetDeriver -->
-        <test-method status="PASS" signature="fnApplication()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="fnApplication" duration-ms="1447" started-at="2019-07-25T19:39:08Z" finished-at="2019-07-25T19:39:10Z">
+        <test-method status="PASS" signature="fnApplication()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnApplication" duration-ms="1540" started-at="2019-07-25T20:05:33Z" finished-at="2019-07-25T20:05:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnApplication -->
-        <test-method status="PASS" signature="fnValidateTitle()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="fnValidateTitle" duration-ms="12" started-at="2019-07-25T19:39:10Z" finished-at="2019-07-25T19:39:10Z">
+        <test-method status="PASS" signature="fnValidateTitle()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnValidateTitle" duration-ms="7" started-at="2019-07-25T20:05:34Z" finished-at="2019-07-25T20:05:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnValidateTitle -->
-        <test-method status="PASS" signature="fnClickWebELe()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="fnClickWebELe" duration-ms="868" started-at="2019-07-25T19:39:10Z" finished-at="2019-07-25T19:39:10Z">
+        <test-method status="PASS" signature="fnClickWebELe()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnClickWebELe" duration-ms="662" started-at="2019-07-25T20:05:34Z" finished-at="2019-07-25T20:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnClickWebELe -->
-        <test-method status="PASS" signature="listAllItems()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="listAllItems" duration-ms="155" started-at="2019-07-25T19:39:10Z" finished-at="2019-07-25T19:39:11Z">
+        <test-method status="PASS" signature="listAllItems()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="listAllItems" duration-ms="158" started-at="2019-07-25T20:05:35Z" finished-at="2019-07-25T20:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listAllItems -->
-        <test-method status="PASS" signature="fnPerformActions()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="fnPerformActions" duration-ms="53" started-at="2019-07-25T19:39:11Z" finished-at="2019-07-25T19:39:11Z">
+        <test-method status="PASS" signature="fnPerformActions()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnPerformActions" duration-ms="55" started-at="2019-07-25T20:05:35Z" finished-at="2019-07-25T20:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnPerformActions -->
-        <test-method status="PASS" signature="fnclickCompareLink()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="fnclickCompareLink" duration-ms="736" started-at="2019-07-25T19:39:11Z" finished-at="2019-07-25T19:39:11Z">
+        <test-method status="PASS" signature="fnclickCompareLink()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnclickCompareLink" duration-ms="781" started-at="2019-07-25T20:05:35Z" finished-at="2019-07-25T20:05:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnclickCompareLink -->
-        <test-method status="PASS" signature="scrollToElement()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="scrollToElement" duration-ms="76" started-at="2019-07-25T19:39:11Z" finished-at="2019-07-25T19:39:11Z">
+        <test-method status="PASS" signature="scrollToElement()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="scrollToElement" duration-ms="72" started-at="2019-07-25T20:05:36Z" finished-at="2019-07-25T20:05:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollToElement -->
-        <test-method status="PASS" signature="veryAndClick()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="veryAndClick" duration-ms="2468" started-at="2019-07-25T19:39:11Z" finished-at="2019-07-25T19:39:14Z">
+        <test-method status="PASS" signature="veryAndClick()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="veryAndClick" duration-ms="2041" started-at="2019-07-25T20:05:36Z" finished-at="2019-07-25T20:05:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- veryAndClick -->
-        <test-method status="PASS" signature="fnTerminateDriver()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@4501b7af]" name="fnTerminateDriver" is-config="true" duration-ms="61" started-at="2019-07-25T19:39:14Z" finished-at="2019-07-25T19:39:14Z">
+        <test-method status="PASS" signature="fnTerminateDriver()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnTerminateDriver" is-config="true" duration-ms="79" started-at="2019-07-25T20:05:38Z" finished-at="2019-07-25T20:05:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fnTerminateDriver -->

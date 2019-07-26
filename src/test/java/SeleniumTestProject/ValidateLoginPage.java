@@ -40,7 +40,7 @@ public class ValidateLoginPage {
 		WebDriverManager.chromedriver().setup();
 		//System.setProperty("webdriver.chrome.driver", "/Users/deepa/Documents/workspace/SeleniumTestProject/Drivers/chromedriver");	
 		ChromeOptions options = new ChromeOptions();
-		options.setHeadless(true);
+		//options.setHeadless(true);
 		driver = new ChromeDriver(options);
 	}
 	
