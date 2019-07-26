@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" >
+  <test name="RestTests" >
+    <classes>
+       <class name="ValidatePutRequest" />
+        <class name="ValidatePostResqest" />
+         <class name="ValidateOpenRestApi" />
+    </classes>
+  </test>
+ 
+  <test name="Regression1">
+    <classes>
+      <class name="ValidateLoginPage"/>
+    </classes>
+  </test>
+</suite>
