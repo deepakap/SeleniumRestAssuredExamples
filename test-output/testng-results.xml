@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7074" started-at="2019-07-26T03:05:31Z" finished-at="2019-07-26T03:05:38Z">
+  <suite name="Default suite" duration-ms="1345" started-at="2019-08-15T18:42:30Z" finished-at="2019-08-15T18:42:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7074" started-at="2019-07-26T03:05:31Z" finished-at="2019-07-26T03:05:38Z">
-      <class name="SeleniumTestProject.ValidateLoginPage">
-        <test-method status="PASS" signature="fnSetDeriver()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnSetDeriver" is-config="true" duration-ms="1660" started-at="2019-07-25T20:05:31Z" finished-at="2019-07-25T20:05:33Z">
+    <test name="Default test" duration-ms="1345" started-at="2019-08-15T18:42:30Z" finished-at="2019-08-15T18:42:31Z">
+      <class name="com.app.ApiTesting.TestGetRequestApi">
+        <test-method status="PASS" signature="setUpEndPoint()[pri:0, instance:com.app.ApiTesting.TestGetRequestApi@2038ae61]" name="setUpEndPoint" is-config="true" duration-ms="383" started-at="2019-08-15T11:42:30Z" finished-at="2019-08-15T11:42:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fnSetDeriver -->
-        <test-method status="PASS" signature="fnApplication()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnApplication" duration-ms="1540" started-at="2019-07-25T20:05:33Z" finished-at="2019-07-25T20:05:34Z">
+        </test-method> <!-- setUpEndPoint -->
+        <test-method status="PASS" signature="_testPostApi()[pri:0, instance:com.app.ApiTesting.TestGetRequestApi@2038ae61]" name="_testPostApi" duration-ms="1180" started-at="2019-08-15T11:42:30Z" description=" validating api  :   /docs/_albums/GET " finished-at="2019-08-15T11:42:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fnApplication -->
-        <test-method status="PASS" signature="fnValidateTitle()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnValidateTitle" duration-ms="7" started-at="2019-07-25T20:05:34Z" finished-at="2019-07-25T20:05:34Z">
+        </test-method> <!-- _testPostApi -->
+        <test-method status="PASS" signature="_testValidateGetBody()[pri:0, instance:com.app.ApiTesting.TestGetRequestApi@2038ae61]" name="_testValidateGetBody" duration-ms="107" started-at="2019-08-15T11:42:31Z" description="/users" finished-at="2019-08-15T11:42:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fnValidateTitle -->
-        <test-method status="PASS" signature="fnClickWebELe()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnClickWebELe" duration-ms="662" started-at="2019-07-25T20:05:34Z" finished-at="2019-07-25T20:05:35Z">
+        </test-method> <!-- _testValidateGetBody -->
+        <test-method status="PASS" signature="_testValidateUserID2()[pri:0, instance:com.app.ApiTesting.TestGetRequestApi@2038ae61]" name="_testValidateUserID2" duration-ms="21" started-at="2019-08-15T11:42:31Z" finished-at="2019-08-15T11:42:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fnClickWebELe -->
-        <test-method status="PASS" signature="listAllItems()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="listAllItems" duration-ms="158" started-at="2019-07-25T20:05:35Z" finished-at="2019-07-25T20:05:35Z">
+        </test-method> <!-- _testValidateUserID2 -->
+        <test-method status="PASS" signature="_testValidateUserID3()[pri:0, instance:com.app.ApiTesting.TestGetRequestApi@2038ae61]" name="_testValidateUserID3" duration-ms="23" started-at="2019-08-15T11:42:31Z" finished-at="2019-08-15T11:42:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- listAllItems -->
-        <test-method status="PASS" signature="fnPerformActions()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnPerformActions" duration-ms="55" started-at="2019-07-25T20:05:35Z" finished-at="2019-07-25T20:05:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fnPerformActions -->
-        <test-method status="PASS" signature="fnclickCompareLink()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnclickCompareLink" duration-ms="781" started-at="2019-07-25T20:05:35Z" finished-at="2019-07-25T20:05:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fnclickCompareLink -->
-        <test-method status="PASS" signature="scrollToElement()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="scrollToElement" duration-ms="72" started-at="2019-07-25T20:05:36Z" finished-at="2019-07-25T20:05:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollToElement -->
-        <test-method status="PASS" signature="veryAndClick()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="veryAndClick" duration-ms="2041" started-at="2019-07-25T20:05:36Z" finished-at="2019-07-25T20:05:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- veryAndClick -->
-        <test-method status="PASS" signature="fnTerminateDriver()[pri:0, instance:SeleniumTestProject.ValidateLoginPage@2ac273d3]" name="fnTerminateDriver" is-config="true" duration-ms="79" started-at="2019-07-25T20:05:38Z" finished-at="2019-07-25T20:05:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fnTerminateDriver -->
-      </class> <!-- SeleniumTestProject.ValidateLoginPage -->
+        </test-method> <!-- _testValidateUserID3 -->
+      </class> <!-- com.app.ApiTesting.TestGetRequestApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

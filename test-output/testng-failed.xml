@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.app.restFulltest.ValidatePutRequest">
+      <class name="com.app.ApiTesting.TestGetRequestApi">
         <methods>
-          <include name="setUrl"/>
-          <include name="_testPutreq"/>
+          <include name="_testValidateUserID3"/>
+          <include name="setUpEndPoint"/>
         </methods>
-      </class> <!-- com.app.restFulltest.ValidatePutRequest -->
+      </class> <!-- com.app.ApiTesting.TestGetRequestApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

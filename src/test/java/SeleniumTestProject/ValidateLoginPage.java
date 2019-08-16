@@ -22,6 +22,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.org.common.Home;
+import com.org.common.Ipad;
+
+import SeleniumTestProject.*;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
@@ -62,6 +67,9 @@ public class ValidateLoginPage {
 		
 		Home hme = new Home(driver);
 		hme.fnClickLink();
+		
+		
+		
 		
 	}
 	

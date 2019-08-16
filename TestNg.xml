@@ -13,4 +13,10 @@
       <class name="ValidateLoginPage"/>
     </classes>
   </test>
+  <test>
+  	<package>
+  		<packaage name="com.app.restFulltest.*" />
+  	</package>
+  </test>
+  
 </suite>

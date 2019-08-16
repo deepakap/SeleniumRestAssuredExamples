@@ -8,6 +8,7 @@ import org.apache.http.HttpResponse;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import static io.restassured.RestAssured.given;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -31,6 +32,14 @@ public class ValidateOpenRestApi {
 		Response resp =  rs.get("/api/users");
 		System.out.print(" "+resp.getBody().asString());
 		Assert.assertEquals(resp.getStatusCode(), 200, "Issue : status not matching !");
+	}
+	
+	
+	@Test(priority=1)
+	public void _testLaunchApi(){
+		
+		given().get("/api/users").then().assertThat().statusCode(200); 
+		
 		
 	}
 	
