@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.app.ApiTesting.TestGetRequestApi">
+      <class name="com.app.test.NewTest">
         <methods>
-          <include name="_testValidateUserID3"/>
-          <include name="setUpEndPoint"/>
+          <include name="setUpChromeDriver"/>
+          <include name="closeBrowser"/>
+          <include name="_testSelectArmorBloxDropDown"/>
         </methods>
-      </class> <!-- com.app.ApiTesting.TestGetRequestApi -->
+      </class> <!-- com.app.test.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
