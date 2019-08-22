@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	
-	ChromeDriver driver;
+	protected ChromeDriver driver;
 	
 	@BeforeSuite
 	public void setUpChromeDriver(){
